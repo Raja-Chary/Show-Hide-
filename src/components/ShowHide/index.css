@@ -1,0 +1,101 @@
+/* Write your CSS here */
+@media (min-width: 768px) {
+  .bg-container {
+    background-image: linear-gradient(to Right, #fa7257, #fc63a7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub-container {
+    display: flex;
+  }
+
+  .name-container1 {
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .name-container2 {
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .heading {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Roboto;
+  }
+
+  button {
+    color: #fc63a7;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: none;
+  }
+
+  .name {
+    background-color: #fddddb;
+    font-size: 20px;
+    width: 10vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    background-image: linear-gradient(to Right, #fa7257, #fc63a7);
+    height: 90vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-container1 {
+    text-align: center;
+  }
+
+  .name-container2 {
+    text-align: center;
+  }
+
+  .heading {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Roboto;
+  }
+
+  button {
+    color: #fc63a7;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: none;
+  }
+
+  .name {
+    background-color: #fddddb;
+    font-size: 20px;
+    width: 30vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
